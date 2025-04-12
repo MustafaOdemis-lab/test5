@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Death Note font -->
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Sayfa stili -->
+    <style>
+        html, body {
+            background-color: black !important;
+            color: white;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        header img {
+            display: block;
+            margin: 30px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* İsim listesi stil tanımları */
+        .name-entry {
+            color: rgba(255, 255, 255, 0.229);
+            text-align: left;
+            padding: 10px 0;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            display: flex;
+        }
+
+        .name-entry span {
+            min-width: 80px;
+        }
+
+        .name-entry:after {
+            content: "";
+            flex-grow: 1;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            margin-left: 10px;
+            margin-bottom: 3px;
+            display: inline-block;
+        }
+
+        /* Footer stili */
+        footer {
+            text-align: center;
+            width: 100%;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        #f1 {
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 9px;
+        }
+
+        /* Mobil cihazlar için medya sorgusu */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            .name-entry {
+                padding: 8px 0;
+                margin: 6px 0;
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <!-- Sayfa yüklenme efekti -->
+    <script>
+        document.documentElement.style.backgroundColor = 'black';
+        document.body.style.opacity = 0;
+        window.addEventListener("load", () => {
+            document.body.style.transition = "opacity 0.5s ease";
+            document.body.style.opacity = 1;
+        });
+    </script>
+
+    <!-- Sayfa başlığı ve favicon -->
+    <title>Death Note</title>
+    <link rel="icon" type="image/png" href="./images/skull.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="https://i.imgur.com/ei7OAzy.png" alt="Death Note Logo">
+        </header>
+
+        <!-- İsim listesi -->
+        <div class="name-list">
+            <div class="name-entry"><span>person1:</span></div>
+            <div class="name-entry"><span>person2:</span></div>
+            <div class="name-entry"><span>person3:</span></div>
+            <div class="name-entry"><span>person4:</span></div>
+            <div class="name-entry"><span>person5:</span></div>
+            <div class="name-entry"><span>person6:</span></div>
+            <div class="name-entry"><span>person7:</span></div>
+            <div class="name-entry"><span>person8:</span></div>
+            <div class="name-entry"><span>person9:</span></div>
+            <div class="name-entry"><span>person10:</span></div>
+            <div class="name-entry"><span>person11:</span></div>
+            <div class="name-entry"><span>person12:</span></div>
+            <div class="name-entry"><span>person13:</span></div>
+            <div class="name-entry"><span>person14:</span></div>
+        </div>
+
+        <footer>
+            <p id="f1">produced by <strong>INAN BURGER</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
