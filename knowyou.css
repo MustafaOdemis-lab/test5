@@ -1,0 +1,226 @@
+h1{
+    text-align: center;
+    color: #ffffff;
+    
+}
+html{
+    background-color: #000000;
+}
+#adress {
+    color:rgb(255, 255, 255);
+    
+    text-align: center ;
+    display: block;
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;  
+}
+.center-container {
+    display: flex;
+    justify-content: center;  /* yatay ortalama */
+    align-items: center;      /* dikey ortalama */
+    height: 100vh;            /* tüm ekran yüksekliği */
+}
+
+#murder1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+    
+   
+    
+    
+    
+}
+
+
+
+  
+ #header1{
+    font-family: monospace;
+    
+ }
+  
+ #cansee {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 64px;
+    color: white;
+    padding-top: 10px;      
+    padding-bottom: 0px;
+    
+   
+    letter-spacing: 3px;
+    
+}
+
+
+
+#m1{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m2{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m3{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m4{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+  
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m5{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m6{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m6{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m7{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#m8{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m9{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m10{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m11{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m12{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m13{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    text-align: center;
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m14{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    text-align: left;
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+#footer1 {
+    text-align: center;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    padding: 20px;
+    font-size: 18px;
+    opacity: 0.3;
+}
+
